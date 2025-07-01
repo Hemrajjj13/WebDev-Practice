@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Resume Analyzer</title>
+  <link rel="stylesheet" href="ra.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI-Powered Resume Analyzer</h1>
+      <p>Upload your resume for an analysis and get recommendations!</p>
+    </header>
+
+    <main>
+      <div class="upload-section">
+        <input type="file" id="resume-upload" accept=".pdf, .docx, .txt" />
+        <button onclick="analyzeResume()">Analyze Resume</button>
+      </div>
+
+      <div id="analysis-result" class="hidden">
+        <h2>Analysis Result</h2>
+        <p><strong>Match Score:</strong> <span id="match-score">80%</span></p>
+        <p style="text-decoration: yellow wavy overline;padding-top: 4px padding: left: 4px;;"><strong>Recommendations:</strong></p>
+        <ul>
+          <li>Improve the formatting for better readability.</li>
+          <li>Highlight key skills such as Python and Data Analysis.</li>
+          <li>Add more achievements to enhance the resume.</li>
+        </ul>
+      </div>
+
+      <div id="loading" class="hidden">
+        <p>Analyzing your resume... Please wait.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 AI Resume Analyzer. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    function analyzeResume() {
+      const uploadButton = document.querySelector("input[type='file']");
+      const resultSection = document.getElementById("analysis-result");
+      const loadingSection = document.getElementById("loading");
+
+      if (uploadButton.files.length > 0) {
+        // Show loading indicator
+        loadingSection.classList.remove("hidden");
+        resultSection.classList.add("hidden");
+
+        // Simulate the AI resume analysis process
+        setTimeout(() => {
+          loadingSection.classList.add("hidden");
+          resultSection.classList.remove("hidden");
+        }, 3000); // Simulated delay for analysis
+      } else {
+        alert("Please upload a resume first.");
+      }
+    }
+  </script>
+</body>
+</html>

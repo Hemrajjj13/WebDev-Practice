@@ -1,0 +1,14 @@
+h1 {
+    color: coral;
+    background-color: gray;
+    display: block;
+    width: 100vw; /* 100% of the viewport width */
+  }
+  
+p{
+    color: rgb(134, 49, 125);
+}
+button{
+    color: blueviolet;
+}
+ 

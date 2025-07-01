@@ -1,0 +1,29 @@
+body{
+    font-family: Georgia,Helvetica;
+}
+p{
+    color: #A52A2A;
+    text-align: center;
+    line-height: 30px;
+}
+span{
+    text-decoration: underline;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+textarea{
+    color: aqua;
+}
