@@ -5,10 +5,12 @@ h1 {
 
 h3 {
     text-align: right;
+    font-family: fantasy;
 }
 
 h2 {
     text-decoration: overline underline purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
