@@ -22,3 +22,21 @@ h1, h3 {
 .upvote {
     background-color: green;
 }
+
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: pink;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    color: darkblue;
+    background-color: cornflowerblue;
+}
