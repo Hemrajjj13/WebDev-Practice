@@ -40,3 +40,8 @@ p + h3 {
     color: darkblue;
     background-color: cornflowerblue;
 }
+
+div > input {
+    background-color: darksalmon;
+}
+
