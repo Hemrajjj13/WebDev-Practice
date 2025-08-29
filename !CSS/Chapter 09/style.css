@@ -1,0 +1,36 @@
+h1 {
+    color: pink;
+}
+
+#greet {
+    color: brown;
+}
+
+.myClass {
+    color: yellow;
+}
+
+div p {
+    background-color: rgb(227, 197, 197);
+}
+
+.para {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+p {
+    background-color: green;
+}
+
+div.greetDiv .greet {
+    color: green;
+}
+
+.greetDiv p.greet {
+    color: blue;
+}
+
+.greetDiv .greet {
+    color: red !important;
+}
