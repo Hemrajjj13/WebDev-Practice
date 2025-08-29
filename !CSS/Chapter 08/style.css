@@ -56,3 +56,47 @@ input[type="password"] {
 input[type] {
     background-color: ghostwhite;
 }
+
+#myid p {
+    color: green;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(3) {
+    background-color: blanchedalmond;
+}
+
+h1::first-letter {
+    color: gold;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: limegreen;
+}
