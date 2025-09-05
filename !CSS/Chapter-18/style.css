@@ -1,0 +1,28 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#opacity {
+    background-color: #ffa511;
+    opacity: 1;
+}
+
+#transition {
+    background-color: #11ff70cd;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: margin-top 2s ease 0.2s;
+}
+
+#transition:hover {
+    margin-top: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    color: whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
