@@ -1,0 +1,56 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: yellowgreen;
+
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    amimation-direction: reverse;
+    /* animation: fontAnimation 2s ease-in 0 5 normal fill-mode; */
+}
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  animation: fontAnimation 5s linear infinite,
+             rotateAnimation 1ms linear infinite,
+             glowAnimation 2s ease-in-out infinite;
+}
+
+@keyframes fontAnimation {
+  0%   { color: darkblue; transform: scale(1); }
+  50%  { color: crimson; transform: scale(1.5); }
+  100% { color: darkblue; transform: scale(1); }
+}
+
+@keyframes rotateAnimation {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes glowAnimation {
+  0%, 100% { text-shadow: 0 0 5px gold; }
+  50%      { text-shadow: 0 0 20px orange; }
+}
