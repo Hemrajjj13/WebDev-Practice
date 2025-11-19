@@ -9,3 +9,8 @@ let hindi = 80, eng = 90, math = 100;
 let avg = (hindi + eng + math) / 3;
 console.log(avg);
 
+//Q3. What is the value of each variable in each line of code?
+let num = 5;
+let newNum = num++; //5
+newNum = ++num; //7
+
