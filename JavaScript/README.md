@@ -1,6 +1,8 @@
 # JavaScript
 
-## Chapter 1: Variables
+## Chapter 1: Variables  
+Basic introduction to JavaScript variables (`let`, `const`, `var`), numbers, operations, data types, strings, booleans, null & undefined, and console practice.  
+🔗 **Chapter 1 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-1
 
 <!-- ## Chapter 2
 
