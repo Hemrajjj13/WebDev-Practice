@@ -26,3 +26,22 @@ if (marks >=36) {
     console.log("Appear for next attempt");
 }
 
+console.log('====================================');
+console.log("Switch Statement");
+console.log('====================================');
+
+let color = 'green';
+
+switch (color) {
+    case "red":
+        console.log("STOP");
+        break;
+    case "yellow":
+        console.log("STOP");
+        break;
+    case "green":
+        console.log("STOP");
+        break;
+    default:
+        break;
+}

@@ -28,3 +28,41 @@ if (size == "XL") {
 } else {
     console.log("Invalid Size");
 }
+
+//Q3. A "good string" a string that starts with the letter & has a length > 3. Write a program to find if string is good or not
+
+let str = "Hemraj";
+if ((str.length > 3) && str[0] == 'a') {
+    console.log("Good String");
+} else {
+    console.log("Bad String");
+}
+
+//Q3. Use switch statement to print the day of the week using a number variable 'day' with values 1 to 7. (1 = Monday, 2 = Tuesday, & so on)
+let day = 5;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 17:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Enter Valid day between 1 - 7");
+        break;
+}

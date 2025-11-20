@@ -1,7 +1,7 @@
 console.log("Hello From Hemraj");
 
 let a = 10, b = 5;
-sum = a + b;
+let sum = a + b;
 console.log('Sum:', sum);
 
 
@@ -66,5 +66,19 @@ if(5 > 3 || 3 > 5) {
 console.log("! : NOT");
 if (!5<3) {
     console.log("true");
-    
 }
+/****************************************************/
+console.log("Alert & Prompt");
+/****************************************************/
+
+// alert("This is an alert");
+console.error("This is an error message");
+console.warn("Warning Message");
+
+let firstName = prompt("enter your first Name");
+let lastName = prompt("enter your last Name");
+let age = prompt("Enter your age");
+console.log(firstName + lastName);
+console.log(typeof age);
+console.log(typeof lastName);
+
