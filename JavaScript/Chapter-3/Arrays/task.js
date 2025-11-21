@@ -18,3 +18,12 @@ console.log(monthsTwo);
 let progLangs = ['c', 'c++', 'html', 'javscript', 'python', 'java', 'c#', 'sql'];
 console.log(progLangs.reverse().indexOf('javscript'));
 console.log(progLangs[4]);
+
+//Q4. Create a Nested array to show the follwing tic toe game state
+
+let ticTacToe = [['X', 'null', 'O'], ['null', 'X', 'null'], ['O', 'null', 'X']];
+console.log(ticTacToe);
+ticTacToe[0][1] = '0';
+ticTacToe[1][0] = ticTacToe[1][2] = '0';
+ticTacToe[2][1] = '0';
+console.log(ticTacToe);
