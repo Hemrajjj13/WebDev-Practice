@@ -22,4 +22,27 @@ let merge3 = primary.concat(cars);
 console.log(merge3);
 
 //4.  arr.reverse()
-console.log(cars.reverse());
+cars.reverse();
+console.log(cars);
+
+// 5. array.slice(start, end(optional))
+let carsSlice =  cars.slice(0, 1);
+console.log(carsSlice);
+
+//6. array.splice(start, deleteCount, item0....itemN)
+let colors = ['red', 'yellow', 'blue', 'orange', 'pink', 'white'];
+colors.splice(5, 1, ['orange', 'lime', 'green', 'black']);
+console.log(colors);
+colors[5].splice(1, 1, 'GRAY');
+// colors.splice(0);
+console.log(colors);
+
+colors.splice(0, 0, 'Light Blue', 'Dark Blue');//It will only add elements without deleting any element
+console.log(colors);
+
+//7. arrays.sort()
+colors.sort();
+console.log(colors);
+
+let marks = [10, 42, 67, 89, 34100, 99, 100];
+console.log(marks.sort());
