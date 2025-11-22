@@ -77,3 +77,28 @@ for (let i = 1; i <= 10; i++) {
         console.log(j);
     }
 }
+
+/***************************************/
+// For of Loop
+/***************************************/
+let fruits = ["mango", "banana", "apple", "litchi", "orange"];
+
+for (fruit of fruits) {
+    console.log(fruit);
+}
+
+for (char of "Hemraj") {
+    console.log(char);
+}
+
+
+/***************************************/
+//Nested For of Loop
+/***************************************/
+let heroes = [["ironman", "spiderman", "thor"], ["superman", "batman", "flash"]];
+
+for (list of heroes) {
+    for (name of heroes) {
+        console.log(name);
+    }
+}
