@@ -1,0 +1,81 @@
+50 HARD JavaScript Questions (Ch 1–4)
+
+1. What will be the output of:
+   let a = "10"; let b = 5; console.log(a - b + a);
+
+2. Predict the result of:
+   console.log(typeof NaN === "number");
+
+3. What happens if you use const to declare an array and later modify its content?
+
+4. Explain why this returns false:
+   [] == []
+
+5. What is the output:
+   console.log(5 + 3 * 2 ** 2 - 1);
+
+6. What does this print and why:
+   let x; console.log(x + 5);
+
+7. Evaluate:
+   console.log("5" * "2" + 3);
+
+8. Why does this give an error:
+   const a = 5; a++;
+
+9. What is the value of num:
+   let num = 10; num = num++ + ++num; console.log(num);
+
+10. Predict output:
+    console.log("10" > 2);
+
+
+11. What is the output:
+    console.log("hello".slice(1).replace("llo", "y").toUpperCase());
+
+12. Predict:
+    "JavaScript".indexOf("Script", 4);
+
+13. What prints:
+    console.log("abc".repeat(3).slice(2, 7));
+
+14. Explain why:
+    "Hemraj".toLowerCase === "hemraj"
+
+15. Convert "   Apna   College  " into "APNA COLLEGE" with no extra spaces.
+
+16. Check if the 3rd character of a string is uppercase without using loops.
+
+17. Reverse only the words of "hello world" (not characters).
+
+18. Extract last 3 characters of a string without using slice(-3).
+
+19. Find the first non-repeating character in a string.
+
+20. Count vowels in a string using only one loop.
+
+
+21. What is output:
+    let arr=[1,2,3]; let copy=arr; copy.push(4); console.log(arr);
+
+22. Predict:
+    console.log([1,2] == [1,2]);
+
+23. Reverse an array without using reverse().
+
+24. Sort this array numerically:
+    let marks=[100,5,20,300,99];
+
+25. Replace the last element of an array using only splice().
+
+26. Merge two arrays but remove duplicates.
+
+27. Find second largest number in an array.
+
+28. Remove the first and last elements of an array.
+
+29. Given:
+    let a=[[1,2],[3,4],[5,6]];
+    Print diagonal → 1, 4, 6
+
+30. Flatten a nested array one level deep manually.
