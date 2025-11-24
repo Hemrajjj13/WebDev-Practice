@@ -1,0 +1,75 @@
+===========================
+20 HARD QUESTIONS (Ch 5 & 6)
+===========================
+
+1. Create an object “bankAccount” with deposit, withdraw, and checkBalance methods. Handle negative values and overdraft cases.
+
+2. Given a nested object of students → return the student with highest marks using a function.
+
+3. Write a function to deeply clone an object without using structuredClone or JSON methods.
+
+4. Create a function that takes an object and returns an array of all keys whose values are numbers.
+
+5. Given an array of objects representing items in a cart, write a function to calculate total bill after discounts.
+
+6. Write a function that takes two objects and returns true if they have identical key-value pairs, false otherwise.
+
+7. Write a function that generates a random integer between two values (inclusive) without using Math.floor().
+
+8. Create a function that removes all properties of an object whose values are falsy.
+
+9. Create a function that swaps keys and values of an object.
+
+10. Write a function to flatten nested objects up to one level.
+
+11. Given arrayOfObjects, write a function to return the object with the longest “name” value.
+
+12. Create a function that simulates a dice roll, but the dice should never repeat the previous value.
+
+13. Write a function that receives an object of marks and returns the subject with the highest score.
+
+14. Create a function “secureRandom(max)” that never returns 0 and never repeats two consecutive numbers.
+
+15. Write a function that returns the count of properties inside a deeply nested object.
+
+16. Given an object of usernames and passwords, implement a login function with 3 attempts.
+
+17. Create a function that accepts an object and returns a new object only containing string-type values.
+
+18. Implement a function sumAll(...args) which returns sum of unlimited numbers but rejects non-numeric values.
+
+19. Write a function that checks if two arrays of objects are equal (same order, same key-values).
+
+20. Write a function that accepts a string and returns an object with vowel-frequency counts.
+
+
+===============================
+10 HARD MIXED QUESTIONS (Ch 1–6)
+===============================
+
+21. Predict output:
+    console.log([1] + [2,3] - "1");
+
+22. Write a function that evaluates this expression manually:
+    "5 + 3 * 2 ** 2 - 10 / 2"
+
+23. Remove duplicate characters from a string but preserve order.
+
+24. Given an array of numbers, return a new array where each value is replaced with the sum of all previous values.
+
+25. Without using reverse(), reverse a string AND also reverse each word separately.
+
+26. Implement a loop that prints all numbers between 1–500 that do NOT contain digits 3, 6, or 9.
+
+27. Given nested arrays like [[1],[2,3],[4,[5]]], count all numbers inside without flattening.
+
+28. Write a function that performs bubble sort manually using loops (no built-in sort).
+
+29. Implement a function that returns true if two strings are anagrams but ignore spaces, cases, and punctuation.
+
+30. Using loops, generate this pattern:
+    1
+    1 2
+    1 2 3
+    ...
+    until n rows.

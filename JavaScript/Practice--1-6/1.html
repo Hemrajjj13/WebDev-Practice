@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bank Account</title>
+</head>
+<body>
+    <h1>Simple Bank Account</h1>
+    <button onclick="addBalance(500);">Add 500</button>
+    <button onclick="addBalance(300);">Add 300</button>
+    <button onclick="addBalance(100);">Add 100</button>
+
+    <hr>
+
+    <button onclick="withdraw(200);">Withdraw 200</button>
+    <button onclick="withdraw(100);">Withdraw 100</button>
+    <button onclick="withdraw(50);">Withdraw 50</button>
+
+    <hr>
+
+    <button onclick="
+    console.log(`Last Deposit Was: ${bankAccount.lastDeposit}`);
+    ">Last Deposit</button>
+
+    <button onclick="
+    console.log(`Last withdrwal was: ${bankAccount.lastWithdraw}`);
+    ">Last Withdraw</button>
+    <hr>
+    <button onclick="
+    console.log(`Available Balance: ${bankAccount.checkBalance}`)">Available Balance</button>
+
+    <script src="1.js"></script>
+
+</body>
+</html>
