@@ -27,3 +27,9 @@ Covers for-loops, while-loops, nested loops, loop control keywords, looping over
 ## Chapter 5: Objects & Math  
 Covers object literals, nested objects, arrays of objects, updating/deleting properties, Math object, random numbers, and a number-guessing game.  
 🔗 **Chapter 5 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-5
+
+---
+
+## Chapter 6: Functions  
+Covers function declarations, default parameters, return values, function expressions, scope (block, function, lexical), higher-order functions, methods inside objects, and multiple function-based practice problems.  
+🔗 **Chapter 6 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-6
