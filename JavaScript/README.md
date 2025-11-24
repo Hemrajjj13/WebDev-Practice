@@ -21,3 +21,9 @@ Includes string methods, array basics, array methods, references, nested arrays,
 ## Chapter 4: Loops  
 Covers for-loops, while-loops, nested loops, loop control keywords, looping over arrays, looping over nested arrays, and number-based loop patterns.  
 🔗 **Chapter 4 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-4
+
+---
+
+## Chapter 5: Objects & Math  
+Covers object literals, nested objects, arrays of objects, updating/deleting properties, Math object, random numbers, and a number-guessing game.  
+🔗 **Chapter 5 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-5
