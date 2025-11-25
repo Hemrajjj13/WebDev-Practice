@@ -1,0 +1,25 @@
+1. Write a function that takes a string and returns another string where 
+   all characters at even index are uppercase, and odd index are lowercase.
+
+2. Write a function that takes an object and prints all keys whose values are arrays.
+
+3. Create a function that takes an array of numbers and returns a new array
+   containing only numbers greater than the average.
+
+4. Write a function that finds the shortest string inside an array of strings.
+
+5. Write a function that takes an object and prints only the numeric properties.
+
+6. Write a function that checks if a given number exists in a nested array.
+   (nested only 1 level deep)
+
+7. Write a function to count how many times each vowel appears in a string.
+   (a, e, i, o, u only)
+
+8. Given an array of marks, return the highest and lowest marks using a loop.
+
+9. Write a function that takes two strings and returns true if all characters of str2 
+   exist somewhere in str1 (not order, not frequency, just existence).
+
+10. Write a function that prints the multiplication table of any number 
+    but stops if the product becomes greater than 200.
