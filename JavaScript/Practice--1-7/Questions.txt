@@ -1,0 +1,20 @@
+1. Write a function that evaluates any math expression string manually without using eval().
+
+2. Create a function deepFreeze(obj) that prevents modifications in nested objects as well.
+
+3. Implement a function that returns the most repeated character in a string.
+
+4. Write a function that prints numbers from 1 to 200 but skips all numbers that have the digit 7.
+
+5. Create a function that takes an object and returns a new object that contains only properties whose values are functions.
+
+6. Implement a function that accepts an array of objects and returns the object with maximum key count.
+
+7. Write a function that behaves like Array.map() but using only loops.
+
+8. Create a function that reverses an array without using reverse(), push(), or pop().
+
+9. Implement a function validateUser(userObj) where all properties must be strings and not empty.
+
+10. Write a function that accepts a number n and generates the first n prime numbers.
+
