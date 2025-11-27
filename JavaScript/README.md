@@ -33,3 +33,9 @@ Covers object literals, nested objects, arrays of objects, updating/deleting pro
 ## Chapter 6: Functions  
 Covers function declarations, default parameters, return values, function expressions, scope (block, function, lexical), higher-order functions, methods inside objects, and multiple function-based practice problems.  
 🔗 **Chapter 6 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-6
+
+---
+
+## Chapter 7: Arrow Functions, `this`, Try/Catch & Async Functions  
+Covers the behavior of `this` in regular vs arrow functions, method context, error handling using `try...catch`, arrow functions (basic, implicit return), `setTimeout`, `setInterval`, clearing intervals, and how arrow functions capture parent scope.  
+🔗 **Chapter 7 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-7
