@@ -1,0 +1,70 @@
+===============================
+ JAVASCRIPT ASSIGNMENT SHEET
+      (Chapters 1–7)
+===============================
+
+----------- Chapter 1–2 -----------
+1. Write a program to check if a number is even, odd, or zero.
+2. Take a user's name and age using prompt and print: "<name> will turn 100 after <x> years".
+3. Predict the output:
+   console.log("5" - 2 + 3 + "1");
+4. Write a program that counts how many digits are in a positive number.
+5. Create a calculator using if/else that supports +, -, *, / based on a variable operator.
+
+----------- Chapter 3 (Strings + Arrays) -----------
+6. Write a function that removes all spaces from a string (without using replaceAll).
+7. Given an array of numbers, print the second largest number.
+8. Given an array, return a new array containing only unique elements (no sets).
+9. Given a string, return the character that appears the most.
+10. Reverse an array manually without using reverse().
+
+----------- Chapter 4 (Loops) -----------
+11. Print all numbers between 1–200 that are divisible by 7 but not by 5.
+12. Print the multiplication table of a number in reverse (10 → 1).
+13. Print all prime numbers between 1 and 100 (simple logic only).
+14. Print this pattern:
+    *
+    **
+    ***
+    ****
+15. Print the sum of all digits of a number (e.g., 453 → 12).
+
+----------- Chapter 5 (Objects) -----------
+16. Create an object representing a bank account with deposit() and withdraw() methods.
+17. Write a function that counts how many properties in an object have numeric values.
+18. Create an array of student objects and print the name of the student with the highest marks.
+19. Given an object, create a new object with all keys converted to uppercase.
+20. Write a function that returns true if two objects have the same keys and same values.
+
+----------- Chapter 6 (Functions) -----------
+21. Write a function that returns the largest of three numbers.
+22. Write a function sumRange(n) that returns 1+2+3+...+n.
+23. Write a function that takes an array and returns the total sum.
+24. Make a function that prints how many vowels are in a string.
+25. Write a function that takes two numbers and returns an object:
+    {sum: ?, diff: ?, product: ?, division: ?}
+
+----------- Chapter 7 ('this', Arrow Functions, Try/Catch, setTimeout, setInterval) -----------
+26. Create an object with a method that logs the value of this inside it.
+27. Rewrite a function using an arrow function:
+    function isPositive(n) { return n > 0; }
+28. Write a function that prints numbers from 1 to 10 with a 1-second delay between each print.
+29. Use try/catch to safely parse a JSON string (valid or invalid).
+30. Create a countdown timer function that counts down from n to 0 using setInterval.
+
+----------- Mixed (All Chapters 1–7) -----------
+31. Write a function that takes an array and returns an object containing:
+    { min: ?, max: ?, avg: ? }
+32. Write a function that combines two arrays manually (no concat).
+33. Write a program that finds the longest word in a sentence.
+34. Given an array of strings, return only the strings that start with a vowel.
+35. Write a function that removes falsy values (0, "", null, undefined, false) from an array.
+36. Given an array of objects, return only the objects where age > 18.
+37. Create your own version of Array.includes() using loops.
+38. Given a string, return a new string with characters sorted alphabetically.
+39. Write a function that checks if a word is a palindrome.
+40. Create a function that returns how many times each digit appears in a number.
+
+------------------------------
+ END OF ASSIGNMENT SHEET
+------------------------------
