@@ -2,7 +2,7 @@
 
 
 // 1. Write a program to check if a number is even, odd, or zero.
-checkNum(5);
+// checkNum(5);
 function checkNum(num) {
     if (num === 0) {
         console.log("Number is Zero");
@@ -19,7 +19,7 @@ function checkNum(num) {
 // console.log(`${name} will turn 100 after ${100 - age} years`);
 
 // 3. Predict the output:
-console.log("5" - 2 + 3 + "1");
+// console.log("5" - 2 + 3 + "1");
 
 // 4. Write a program that counts how many digits are in a positive number.
 
@@ -31,7 +31,7 @@ if (num > 0) {
         count++;
     }
 }
-console.log(count);
+// console.log(count);
 
 // 5. Create a calculator using if/else that supports +, -, *, / based on a variable operator.
 /*let num1 = Number(prompt("Enter first number:"));
@@ -70,7 +70,7 @@ function removeSpaces(str) {
     }
     return result;
 }
-console.log(removeSpaces("Hello world today")); 
+// console.log(removeSpaces("Hello world today")); 
 
 // 7. Given an array of numbers, print the second largest number.
 function secondLargest(array) {
@@ -87,7 +87,7 @@ function secondLargest(array) {
     }
     console.log("Second Largest:", second);
 }
-secondLargest([1,3,4,5,6,7,8,99, 87]);
+// secondLargest([1,3,4,5,6,7,8,99, 87]);
 
 // 8. Given an array, return a new array containing only unique elements (no sets).
 function getUnique(arr) {
@@ -99,7 +99,7 @@ function getUnique(arr) {
     }
     return unique;
 }
-console.log(getUnique([1, 2, 2, 3, 4, 4, 5]));
+// console.log(getUnique([1, 2, 2, 3, 4, 4, 5]));
 
 // 9. Given a string, return the character that appears the most.
 
@@ -121,7 +121,7 @@ function mostFrequentChar(str) {
     return maxChar;
 }
 
-console.log(mostFrequentChar("hello world"));
+// console.log(mostFrequentChar("hello world"));
 
 // 10. Reverse an array manually without using reverse().
 function arrReverse(array) {
@@ -139,7 +139,7 @@ function arrReverse(array) {
     }
     console.log(array);
 }
-arrReverse([1, 2, 2, 3, 4, 4, 5]);
+// arrReverse([1, 2, 2, 3, 4, 4, 5]);
 
 
 
@@ -200,11 +200,205 @@ function printPattern(num) {
 }
 
 // 15. Print the sum of all digits of a number (e.g., 453 → 12).
-digitSum(231311331, 0)
+// digitSum(231311331, 0)
 function digitSum(num, sum) {
     let str =String(num);
     for (let i = 0; i < str.length; i++) {
         sum += Number(str[i]);
     }
     console.log(sum);
+}
+
+
+/* ----------- Chapter 5 (Objects) ----------- */
+
+// 16. Create an object representing a bank account with deposit() and withdraw() methods.
+let bankAccount = {
+    balance: 0,
+    deposit: function(amount) {
+        this.balance += amount;
+        console.log("Deposited:", amount, "| New Balance:", this.balance);
+    },
+    withdraw: function(amount) {
+        if (amount > this.balance) {
+            console.log("Insufficient balance!");
+        } else {
+            this.balance -= amount;
+            console.log("Withdrew:", amount, "| New Balance:", this.balance);
+        }
+    }
+};
+// bankAccount.deposit(1000);  
+// bankAccount.withdraw(300);  
+// bankAccount.withdraw(1000);  
+
+// 17. Write a function that counts how many properties in an object have numeric values.
+let data = {
+    name: "John",
+    age: 25,
+    height: 180,
+    city: "Paris",
+    score: 90,
+    active: true
+};
+// console.log(countNumericValues(data));
+
+function countNumericValues(obj) {
+    let count = 0;
+    for (let key in obj) {
+        if (typeof obj[key] === "number") {
+            count++;
+        }
+    }
+    return count;
+}
+
+// 18. Create an array of student objects and print the name of the student with the highest marks.
+highestMarks()
+function highestMarks() {
+    let students = [
+        { name: "Alice", marks: 85 },
+        { name: "Bob", marks: 92 },
+        { name: "Charlie", marks: 78 },
+        { name: "David", marks: 95 },
+        { name: "Eva", marks: 88 }
+    ];
+
+    let topStudent = students[0];  // assume first is highest
+
+    for (let i = 1; i < students.length; i++) {
+        if (students[i].marks > topStudent.marks) {
+            topStudent = students[i];
+        }
+    }
+
+    console.log("Top student:", topStudent.name);
+    console.log("Marks:", topStudent.marks);
+
+}
+
+// 19. Given an object, create a new object with all keys converted to uppercase.
+
+function toUpperKeys(obj) {
+  return Object.fromEntries(
+    Object.entries(obj).map(([key, value]) => [key.toUpperCase(), value])
+  );
+}
+const uppercased = toUpperKeys({ name: "Alice", age: 25, city: "Paris" });
+
+console.log(uppercased);
+
+// 20. Write a function that returns true if two objects have the same keys and same values.
+function objectsEqual(obj1, obj2) {
+  const keys1 = Object.keys(obj1);
+  const keys2 = Object.keys(obj2);
+
+  if (keys1.length !== keys2.length) return false;
+
+  for (let key of keys1) {
+    if (obj1[key] !== obj2[key]) return false;
+  }
+  return true;
+}
+
+/* ----------- Chapter 6 (Functions) ----------- */
+
+// 21. Write a function that returns the largest of three numbers.
+// console.log(largestOfThree(10, 20, 35));
+function largestOfThree(a, b, c) {
+  return Math.max(a, b, c);
+}
+
+// 22. Write a function sumRange(n) that returns 1+2+3+...+n.
+// console.log(sumRange(10));
+function sumRange(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+// 23. Write a function that takes an array and returns the total sum.
+// console.log(sumArray([2, 3, 4, 5, 6, 7, 8, 990]))
+function sumArray(arr) {
+  let total = 0;
+  for (let num of arr) {
+    total += num;
+  }
+  return total;
+}
+
+
+// 24. Make a function that prints how many vowels are in a string.
+countVowels("HEMRAJ Suryawanshi");
+function countVowels(str) {
+  let count = 0;
+  const vowels = "aeiouAEIOU";
+  for (let char of str) {
+    if (vowels.includes(char)) count++;
+  }
+  console.log(count);
+}
+
+// 25. Write a function that takes two numbers and returns an object:
+    // {sum: ?, diff: ?, product: ?, division: ?}
+// console.log(computeValues(10, 5));
+function computeValues(a, b) {
+  return {
+    sum: a + b,
+    diff: a - b,
+    product: a * b,
+    division: a / b
+  };
+}
+
+
+
+/* ----------- Chapter 7 ('this', Arrow Functions, Try/Catch, setTimeout, setInterval) ----------- */
+
+// 26. Create an object with a method that logs the value of this inside it.
+const obj = {
+  value: 42,
+  showThis() {
+    console.log(this);
+  }
+};
+// obj.showThis();
+
+// 27. Rewrite a function using an arrow function:
+    // function isPositive(n) { return n > 0; }
+
+const isPositive = n => n > 0;
+// console.log(isPositive(30));
+
+// 28. Write a function that prints numbers from 1 to 10 with a 1-second delay between each print.
+// printNumbers();
+function printNumbers() {
+  let n = 1;
+  const interval = setInterval(() => {
+    console.log(n);
+    if (n === 10) clearInterval(interval);
+    n++;
+  }, 1000);
+}
+
+// 29. Use try/catch to safely parse a JSON string (valid or invalid).
+const jsonStr = '{"name": "Alice", "age": 25}';
+function safeParse(jsonStr) {
+  try {
+    return JSON.parse(jsonStr);
+  } catch (error) {
+    return null;
+  }
+}
+
+// 30. Create a countdown timer function that counts down from n to 0 using setInterval.
+// countdown(50);
+function countdown(n) {
+  const interval = setInterval(() => {
+    console.log(n);
+    if (n === 0) clearInterval(interval);
+    n--;
+  }, 1000);
 }

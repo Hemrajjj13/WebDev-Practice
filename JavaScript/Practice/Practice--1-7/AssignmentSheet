@@ -51,20 +51,3 @@
 28. Write a function that prints numbers from 1 to 10 with a 1-second delay between each print.
 29. Use try/catch to safely parse a JSON string (valid or invalid).
 30. Create a countdown timer function that counts down from n to 0 using setInterval.
-
------------ Mixed (All Chapters 1–7) -----------
-31. Write a function that takes an array and returns an object containing:
-    { min: ?, max: ?, avg: ? }
-32. Write a function that combines two arrays manually (no concat).
-33. Write a program that finds the longest word in a sentence.
-34. Given an array of strings, return only the strings that start with a vowel.
-35. Write a function that removes falsy values (0, "", null, undefined, false) from an array.
-36. Given an array of objects, return only the objects where age > 18.
-37. Create your own version of Array.includes() using loops.
-38. Given a string, return a new string with characters sorted alphabetically.
-39. Write a function that checks if a word is a palindrome.
-40. Create a function that returns how many times each digit appears in a number.
-
-------------------------------
- END OF ASSIGNMENT SHEET
-------------------------------
