@@ -39,3 +39,9 @@ Covers function declarations, default parameters, return values, function expres
 ## Chapter 7: Arrow Functions, `this`, Try/Catch & Async Functions  
 Covers the behavior of `this` in regular vs arrow functions, method context, error handling using `try...catch`, arrow functions (basic, implicit return), `setTimeout`, `setInterval`, clearing intervals, and how arrow functions capture parent scope.  
 🔗 **Chapter 7 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-7
+
+---
+
+## Chapter 8: Array Methods, Spread, Rest & Destructuring  
+Covers modern array methods (`forEach`, `map`, `filter`, `every`, `some`, `reduce`), default parameters, spread operator (`...`), rest parameters, and destructuring for arrays & objects.  
+🔗 **Chapter 8 Code:** https://github.com/Hemrajjj13/WebDev-Practice/tree/master/JavaScript/Chapter-8
