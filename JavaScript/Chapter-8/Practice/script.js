@@ -34,7 +34,20 @@ console.log(newArray);
 
 // Q3
 let strArray = ["hemraj", "digvijay", "yash", "nishchay"];
-let newStr = strArray.map( (str) => {
+const newStr = strArray.map( (str) => {
     return str.toUpperCase();
 });
-console.log(newStr)
+console.log(newStr);
+
+// Q4
+const doubledAndReturnArgs = (arr, ...args) => [
+    ...arr,
+    ...args.map((v) => v * 2)
+];
+
+console.log(doubledAndReturnArgs([1, 2, 3, 4, 5, 6, 7, 8], 4.5, 5));
+
+// Q5
+const mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2});
+
+console.log(mergeObjects({a:1,b:2},{c:3,d:4}))
