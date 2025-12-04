@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Form</title>
+</head>
+<body>
+    <h1>Request Call BAck</h1>
+
+    <form action="query.html" method="get" style="border: 2px solid black; margin: 0px auto; padding: 50px";>
+        <input type="text" name="username" placeholder="Enter Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <input  type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required><br>
+        <select name="country" required>
+            <option value="value">select</option>
+            <option value="value">India</option>
+            <option value="value">Newzeland</option>
+            <option value="value">Paris</option>
+            <option value="value">London</option>
+            <option value="value">Japan</option>
+        </select><br>
+        <input type="text" name="state"  placeholder="Enter State" required><br>
+        <input type="text" name="city" placeholder="Enter city" required><br>
+        <input type="text" name="query" placeholder="Enter Your Query" required><br>
+        <select name="branch" required>
+            <option value="value">Select Branch</option>
+            <option value="value">Pimpri-Chinchwad</option>
+        </select><br>
+        <input type="submit" value="submit"><br>
+    </form>
+</body>
+</html>

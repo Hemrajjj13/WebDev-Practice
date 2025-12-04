@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-6</title>
+  </head>
+  <body>
+    <input
+      type="button"
+      value="Click Me"
+      onclick="alert('Sumitted Successfully !')"
+    /><span>Hello</span>
+
+    <input type="checkbox" value="reading" checked required />Reading
+
+    <h2>Login Form</h2>
+    <form>
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        value="xyz"
+        minlength="5"
+        maxlength="50"
+      />
+      <hr />
+      <input
+        type="email"
+        name="email"
+        required
+        value="@gmail.com"
+        minlength="6"
+        maxlength="30"
+      />
+      <hr />
+      <input type="date" min="2000-01-01" max="2045-12-31" />
+      <hr />
+      <input type="file" name="ProfilePic" accept=".pdf" multiple required />
+      <hr />
+      <input type="number" min="1" max="100" value="18" />
+      <input type="radio" name="gender" />Male
+      <input type="radio" name="gender" />Female
+
+      <input type="submit" onclick="alert('Login Successfully')" />
+      <hr />
+      <!-- <input type="submit" onclick="alert('Login Successfully'); window.location='home.html';"><hr> -->
+
+      <hr />
+      <p>Where You Want to Go</p>
+      <select name="country" required multiple>
+        <option value="value">select</option>
+        <option value="value">India</option>
+        <option value="value">Newzeland</option>
+        <option value="value">Paris</option>
+        <option value="value">London</option>
+        <option value="value">Japan</option>
+      </select>
+    </form>
+
+    <hr>
+    <hr>
+    <hr>
+    <input type="text" value="name" placeholder="enter name" required maxlength="20" minlength="3" pattern="[0-9]{10}" readonly>
+    <input type="url" name="website" value="https://example.com">
+    <input type="color" name="favColor" value="">
+
+    <div style="background-color: rgb(254, 143, 16); border: 2px solid black; padding: 100px 100px;display: inline-block; height: 200px; width: 200px;">Div</div>
+  </body>
+</html>

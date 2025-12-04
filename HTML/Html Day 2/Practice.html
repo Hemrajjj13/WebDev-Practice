@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Semantic HTML Practice</title>
+    <style>
+        div,button,input{
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #333;
+        }
+    </style>
+ </head>
+ <body>
+        <header>
+            <h1 title="Site Logo">My Semantic Site</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+    <section>
+        <h2>Understanding The <i>Tabindex</i> Mechanism</h2>
+        <input type="text" placeholder="Normal input">
+        <div tabindex="0">Focusable DIv</div>
+        <div tabindex="-1" id="skip-div">Not Focusable</div>
+        <button onclick="document.getElementsById(skip-div).focus()">Focus the above div </button>
+        <input type="text" placeholder="First" tabindex="1"/>
+        <input type="text" placeholder="Second" tabindex="2"/>
+    </section>
+    <hr>
+        <main>
+            <section id="blog-section">
+                <article data-id="001">
+                    <h2>Why Use Semantic HTML?</h2>
+                    <p>Semantic tags make your page easier to understand for
+                    browsers, search engines, and users with assistive technologies.</p>
+                </article>
+            </section>
+            <section id="about">
+                <h2>About</h2>
+                <ul>
+                    <li>For Learning About the <b>id</b> & <b>nav</b> it attracted me to recheck my previous codes of HTML </li>
+                </ul>
+            </section>
+        </main>
+        <hr>
+        <p id="secret" hidden>This is Hidden text & used for accseskey attribute and hidden attribute</p>
+        <button onclick="document.getElementById('secret').hidden=false;" accesskey="g" title="Alt+G For Accesskey">This Is Button</button>
+        <hr>
+    
+        <footer>
+            <p hidden>This Day Was Little Tough </p>
+            <p>&copy; 2025 My Semantic Site</p>
+        </footer>
+    </body>
+</html>

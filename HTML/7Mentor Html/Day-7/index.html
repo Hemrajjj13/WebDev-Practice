@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-6</title>
+  </head>
+  <body>
+    <form
+      action="index.html" method="post" enctype="multipart/form-data"
+      style="border: 2px solid black; margin: 0px auto; padding: 50px"
+    >
+    <!-- Post method is more secure / get  -->
+      <input
+        type="tel"
+        name="phone"
+        placeholder="1234567890"
+        pattern="[0-9]{10}"
+        required
+      /> <br>
+      <input type="color" name="favColor" value="#ff0000">
+      <input type="hidden" name="user-id" value="12345" /><br>
+      <input type="range" name="volume" min="0" max="100" step="5" value="50" /><br>
+
+      <textarea
+        name="feedback"
+        cols="30"
+        rows="10"
+        placeholder="Write Your Feedback Here"
+        required
+      ></textarea><br>
+      <input type="radio" name="gender" placeholder="gender">
+
+      <input type="hidden" name="userid" value="12345" /><br>
+      <input type="submit" value="submit" /><br>
+    </form>
+  </body>
+</html>

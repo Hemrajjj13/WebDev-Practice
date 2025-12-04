@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hemraj Suryawanshi">
+    <meta name="description" content="This Page contains basic structure of an html page.">
+    <title>Day 4</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Day 4:Forms,Inputs & Accessibility</h1>
+    </header>
+    <hr>
+    <form action="/submit" method="POST">
+        <fieldset>
+            <legend>User Feedback</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username" required maxlength="30" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <p>Rate our website:</p>
+            <label><input type="radio" name="rating" value="1" /> 1</label>
+            <label><input type="radio" name="rating" value="2" /> 2</label>
+            <label><input type="radio" name="rating" value="3" /> 3</label>
+            <label><input type="radio" name="rating" value="4" /> 4</label>
+            <label><input type="radio" name="rating" value="5" /> 5</label>
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"
+            placeholder="Write your thoughts..." required></textarea>
+            <label><input type="checkbox" name="terms" required /> I agree to the
+            terms & conditions</label>
+            <input type="submit" value="Submit Feedback" />
+        </fieldset>
+    </form>
+    <a href="http://127.0.0.1:5500/7Mentor%20Html/Day%201/index2.html" target="_parent">Previous page</a>
+</body>
+</html>
