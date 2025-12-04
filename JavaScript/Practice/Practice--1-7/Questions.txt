@@ -17,4 +17,3 @@
 9. Implement a function validateUser(userObj) where all properties must be strings and not empty.
 
 10. Write a function that accepts a number n and generates the first n prime numbers.
-
