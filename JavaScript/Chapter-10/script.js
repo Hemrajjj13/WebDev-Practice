@@ -13,3 +13,5 @@ let a = document.querySelector('a');
 a.addEventListener('click', function() {
     console.log("Callback")
 })
+
+console.log("HEllo")
