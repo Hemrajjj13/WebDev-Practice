@@ -30,3 +30,4 @@ changeColor("red", 1000, () => {
     })
 })
 // callback nesting -> callback hell
+
