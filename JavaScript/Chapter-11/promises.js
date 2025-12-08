@@ -57,17 +57,21 @@ function saveToDb(data) {
 
 // promise chaining
 saveToDb("Hemraj")
-    .then(() => {
+    .then((result) => {
         console.log("data1 saved");
+        console.log("result of promise:", result);
         return saveToDb("hello world");
     })
-    .then(() => {
+    .then((result) => {
         console.log("data2 saved");
+        console.log("result of promise:", result);
         return saveToDb("data 3");
     })
-    .then(() => {
+    .then((result) => {
         console.log("data3 saved");
+        console.log("result of promise:", result);
     })
-    .catch(() => {
+    .catch((error) => {
         console.log("promise was rejected");
+        console.log("error of promise:", error);
     })
