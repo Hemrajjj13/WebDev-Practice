@@ -43,4 +43,13 @@ function saveToDb(data) {
     });
 }
 
-saveToDb("Hemraj");
+
+// then() & catch()
+
+saveToDb("Hemraj")
+    .then(() => {
+        console.log("promise was resolved");
+    })
+    .catch(() => {
+        console.error("promise was rejected");
+    })
