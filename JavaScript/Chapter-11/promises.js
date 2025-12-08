@@ -46,10 +46,28 @@ function saveToDb(data) {
 
 // then() & catch()
 
+// saveToDb("Hemraj")
+//     .then(() => {
+//         console.log("promise was resolved");
+//     })
+//     .catch(() => {
+//         console.error("promise was rejected");
+//     })
+
+
+// promise chaining
 saveToDb("Hemraj")
     .then(() => {
-        console.log("promise was resolved");
+        console.log("data1 saved");
+        return saveToDb("hello world");
+    })
+    .then(() => {
+        console.log("data2 saved");
+        return saveToDb("data 3");
+    })
+    .then(() => {
+        console.log("data3 saved");
     })
     .catch(() => {
-        console.error("promise was rejected");
+        console.log("promise was rejected");
     })
