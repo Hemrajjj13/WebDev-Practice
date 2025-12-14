@@ -11,6 +11,7 @@ greet()
 })
 .catch((err) => {
     console.log("promise was rejected with error : ",err);
+
 });
 
 let demo = async () => {
@@ -18,3 +19,13 @@ let demo = async () => {
 }
 
 // await keyword
+
+async function loadData() {
+  try {
+    const user = await getUser();
+    const data = await getData(user.id);
+    return data;
+  } catch (err) {
+    throw err;
+  }
+}
