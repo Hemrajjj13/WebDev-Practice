@@ -1,3 +1,5 @@
+import { obj } from "./math.js";
+import { sum } from "./math.js";
 // let n = 5;
 
 // for (let i = 0; i < n; i++) {
@@ -17,6 +19,7 @@
 
 // const obj = require("./math.js");
 
-// console.log(obj.sum(9,2435));
-const fruits = require("./Fruits");
-console.log(fruits);
+console.log(sum(9,2435));
+console.log(typeof obj.PI);
+// const fruits = require("./Fruits");
+// console.log(fruits);
