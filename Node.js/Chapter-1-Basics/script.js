@@ -15,6 +15,8 @@
 //     console.log("hello to ", args[i]);
 // }
 
-const obj = require("./math.js");
+// const obj = require("./math.js");
 
-console.log(obj.sum(9,2435));
+// console.log(obj.sum(9,2435));
+const fruits = require("./Fruits");
+console.log(fruits);
