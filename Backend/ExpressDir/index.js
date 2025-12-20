@@ -29,13 +29,15 @@ app.get("/:username/:id", (req, res) => {
     res.send(`welcome to rhe page of @${username}`);
 });
 
-
-
-
-
-
-
-
+app.get("/search", (req, res) => {
+    let q = req.query;
+    if (!q) {
+        res.send("<h1>Nothing Searched</h1>");
+    }
+    else {
+        console.log(req.query);
+    }
+});
 // app.use((req, res) => {
 //     console.log("request received");
 //     res.send(code);
